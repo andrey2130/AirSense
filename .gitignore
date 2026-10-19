@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Xcode — особисті налаштування користувача
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Збірка
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CodeGraph (локальний індекс коду)
+.codegraph/
