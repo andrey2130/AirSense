@@ -25,7 +25,7 @@ struct LaunchView: View {
         .task {
             do {
                 try await viewModel.load()
-                navigation.finishLauch()
+                navigation.finishLaunch()
             } catch {
                 //
             }

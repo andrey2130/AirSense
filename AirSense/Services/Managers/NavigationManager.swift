@@ -13,7 +13,7 @@ final class NavigationManager {
     var appState: AppState = .launch
     
     
-    func finishLauch() {
+    func finishLaunch() {
         appState = .onboarding
     }
 }
