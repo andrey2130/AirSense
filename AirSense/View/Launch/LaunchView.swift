@@ -111,4 +111,5 @@ struct LaunchView: View {
 
 #Preview {
     LaunchView()
+        .environment(NavigationManager())
 }
